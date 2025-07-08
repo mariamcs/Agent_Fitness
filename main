@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPue0mL0I7OESaQKQ+dptWJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mariamcs/Agent_Fitness/blob/main/main\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "S9H_4abRHBwR"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 🧠 AI Agent for Fitness Studio Class Performance Analysis\n",
+        "\n",
+        "## 🚀 Overview\n",
+        "\n",
+        "This project demonstrates how to build a simple AI-powered data agent that analyzes class attendance data for a boutique fitness studio — like **RockBox** — and generates actionable insights in plain English.\n",
+        "\n",
+        "We simulate real-world class data, clean it using PySpark, compute key trends (top classes, underperformance, coach impact), and finally use an LLM (e.g., GPT-4) to summarize findings as if you had a business analyst on your team.\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## 🎯 Problem Statement\n",
+        "\n",
+        "Many fitness studios collect class attendance and coach scheduling data, but rarely turn it into **actionable insights**. This results in:\n",
+        "\n",
+        "- Missed opportunities to optimize class times\n",
+        "- Poor visibility into coach performance\n",
+        "- Difficulty understanding what’s driving retention or drop-offs\n",
+        "- Wasted time generating weekly or monthly reports manually\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## 💡 Use Case: RockBox Studio\n",
+        "\n",
+        "**Client Base**: ~250 active members  \n",
+        "**Class Schedule**:\n",
+        "- **Monday–Thursday**: 5 classes/day (3 morning, 2 evening)\n",
+        "- **Friday**: 2 classes (1 morning, 1 evening)\n",
+        "- **Saturday**: 2 morning classes\n",
+        "- **Sunday**: 1 morning class  \n",
+        "\n",
+        "**Goal**: Help the owner understand:\n",
+        "- Which class times are underbooked\n",
+        "- What coaches have the highest attendance/retention\n",
+        "- Which days have peak engagement\n",
+        "- Seasonal patterns in class attendance\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## ⚙️ What This Agent Does\n",
+        "\n",
+        "1. **Simulates class attendance data**\n",
+        "2. **Cleans and processes it using PySpark**\n",
+        "3. **Analyzes trends across days, times, and coaches**\n",
+        "4. **Uses GPT (via OpenAI API) to generate natural language insights**\n",
+        "5. (Optional) Sends the weekly summary via email or Slack\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## 📊 Sample Insights\n",
+        "\n",
+        "> “Coach Alex’s 6:30 AM Monday class has the highest average attendance.”  \n",
+        "> “Wednesday evening classes have dropped by 18% this month — consider a format change.”  \n",
+        "> “Saturday morning has the best retention rate across the board.”\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## 🛠️ Tech Stack\n",
+        "\n",
+        "- **Python**\n",
+        "- **PySpark** for\n"
+      ],
+      "metadata": {
+        "id": "3Ru3pvpEHJXs"
+      }
+    }
+  ]
+}
